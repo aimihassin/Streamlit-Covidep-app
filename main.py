@@ -13,7 +13,7 @@ st.sidebar.title("Sentiment Analysis of Tweets on COVID19 and Depression (COVIDE
 st.markdown("Analysing the sentiments during COVID19 pandemic and how it affects the mental health")
 st.sidebar.markdown("Analysing the sentiments during COVID19 pandemic and how it affects the mental health")
 
-DATA_URL = ("C:/Users/ASUS/main.py/covidep_processed.csv")
+DATA_URL = ("covidep_processed.csv")
 def load_data():
     data = pd.read_csv(DATA_URL)
     data['tweetcreatedts'] = pd.to_datetime(data['tweetcreatedts'])
