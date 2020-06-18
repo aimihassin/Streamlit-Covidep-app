@@ -8,3 +8,4 @@ TextBlob
 spacy
 text-summarizer
 vaderSentiment
+gensim
