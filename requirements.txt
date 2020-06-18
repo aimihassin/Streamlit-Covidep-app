@@ -6,4 +6,4 @@ WordCloud
 matplotlib
 TextBlob
 spacy
-summarize
+text-summarizer
