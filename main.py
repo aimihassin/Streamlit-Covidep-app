@@ -6,13 +6,6 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-import re
-
-from flair.data import Sentence
-from flair.models import TextClassifier
-
-
-analyser = SentimentIntensityAnalyzer()  # initialize it
 
 st.title("Sentiment Analysis of Tweets on COVID19 and Depression (COVIDEP)")
 st.sidebar.title("Sentiment Analysis of Tweets on COVID19 and Depression (COVIDEP)")
