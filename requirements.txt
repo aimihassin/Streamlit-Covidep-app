@@ -7,3 +7,4 @@ matplotlib
 TextBlob
 spacy
 text-summarizer
+vaderSentiment
