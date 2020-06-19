@@ -1,2 +1,2 @@
 # Streamlit-Covidep-app
-This is for streamlit app deployed on heroku (disclaimer: TESTING!).
+This is for streamlit app deployed on heroku.
